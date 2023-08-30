@@ -1,0 +1,14 @@
+import javax.swing.*;
+public class Main {
+
+	public static void main(String[] args) {
+		JFrame jframe = new JFrame("Main Window");
+		jframe.setSize(300,3000);
+		
+		JLabel jlabel = new JLabel("its me jibran");
+		
+		jframe.getContentPane().add(jlabel);
+		jframe.setVisible(true);
+	}
+
+}

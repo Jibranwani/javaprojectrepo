@@ -1,0 +1,16 @@
+import javax.swing.*;
+public class Main {
+
+	public static void main(String[] args) {
+		JFrame jframe = new JFrame("Main Window");
+		jframe.setSize(300,300);
+		
+		JLabel jlabel = new JLabel("its me jibran");
+		JButton jbutt = new JButton("click here");
+		jbutt.setBounds(100, 50,100,50);
+		jframe.getContentPane().add(jbutt);
+		jframe.getContentPane().add(jlabel);
+		jframe.setVisible(true);
+	}
+
+}
